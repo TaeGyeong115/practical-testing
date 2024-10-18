@@ -22,7 +22,7 @@ class ProductRepositoryTest {
 
     @Test
     @DisplayName("원하는 판매상태를 가진 상품들을 조회한다.")
-    void test() {
+    void findByStatusIsSelling() {
         // given
         Product product1 = createProduct("001", HANDMADE, SELLING, "아메리카노", 4000);
         Product product2 = createProduct("002", HANDMADE, HOLD, "카페라떼", 4500);
