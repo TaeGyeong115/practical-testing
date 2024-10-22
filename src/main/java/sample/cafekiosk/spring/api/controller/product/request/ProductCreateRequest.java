@@ -1,4 +1,4 @@
-package sample.cafekiosk.spring.api.controller.product.dto.request;
+package sample.cafekiosk.spring.api.controller.product.request;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
